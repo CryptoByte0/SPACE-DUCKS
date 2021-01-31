@@ -1,0 +1,142 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+html {
+    box-sizing: inherit;
+}
+
+.container  {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coitainer__text {
+    color: #fff;
+    font-size: 50px;
+}
+
+h1 {
+    color: #fff;
+}
+
+body {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+
+.duck {
+    width: 120px;
+    height: 140px;
+    position: absolute;
+    opacity: 0.7;
+}
+
+.item-1 {
+    left: 30px;
+    transform: rotate(86deg);
+    animation: rotation 1s infinite linear;
+}
+.item-2 {
+    top: 23px;
+    transform: rotate(48deg);
+    animation: rotation 4s infinite linear;
+}
+.item-3 {
+    right: 20%;
+    transform: rotate(56deg);
+    animation: rotation 2s infinite linear;
+}
+.item-4 {
+    bottom: 10%;
+    transform: rotate(10deg);
+    animation: rotation 1s infinite linear;
+}
+.item-5 {
+    right: 10%;
+    top: 5%;
+    transform: rotate(-16deg);
+    animation: rotation 2s infinite linear;
+}
+.item-6 {
+    left: 10%;
+    top: 5%;
+    transform: rotate(16deg);
+    animation: rotation 5s infinite linear;
+}
+.item-7 {
+    left: 20%;
+    top: 30%;
+    transform: rotate(-32deg);
+    animation: rotation 3s infinite linear;
+}
+.item-8 {
+    left: 20%;
+    bottom: 20%;
+    transform: rotate(16deg);
+    animation: rotation 8s infinite linear;
+}
+.item-9 {
+    right: 20%;
+    bottom: 10%;
+    transform: rotate(16deg);
+    animation: rotation 5s infinite linear;
+}
+.item-10 {
+    left: 5%;
+    bottom: 10%;
+    transform: rotate(40deg);
+    animation: rotation 2s infinite linear;
+}
+.item-11{
+    right: 30%;
+    top: 20%;
+    transform: rotate(46deg);
+    animation: rotation 1s infinite linear;
+}
+.item-12{
+    left: 35%;
+    top: 20%;
+    transform: rotate(-46deg);
+    animation: rotation 2s infinite linear;
+}
+.item-13{
+    right: 35%;
+    bottom: 30%;
+    transform: rotate(36deg);
+    animation: rotation 6s infinite linear;
+}
+.item-14{
+    right: 10%;
+    bottom: 30%;
+    transform: rotate(-66deg);
+    animation: rotation 2s infinite linear;
+}
+.item-15{
+    left: 35%;
+    bottom: 20%;
+    transform: rotate(46deg);
+    animation: rotation 6s infinite linear;
+}
+.item-16{
+    right: 10%;
+    top: 25%;
+    transform: rotate(-46deg);
+    animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
